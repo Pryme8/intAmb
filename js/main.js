@@ -120,11 +120,11 @@ $(window).trigger('resize');
        
                        var tempHeight, tempDelay;
                     if(i===0 || i ===3){
-                    tempHeight='10%';
+                    tempHeight='50%';
                     tempDelay=1200;
                     }else{
-                    tempHeight='13%';
-                    tempDelay=800;
+                    tempHeight='50%';
+                    tempDelay=1200;
                     }
                         
                          $(this).delay(320*i).animate({
